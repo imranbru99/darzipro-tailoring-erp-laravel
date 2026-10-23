@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 580" width="100%" height="100%">
+  <defs>
+    <filter id="posShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="580" rx="20" fill="#f1f5f9"/>
+
+  <!-- Left: Counter POS Screen -->
+  <g transform="translate(40, 30)">
+    <rect width="640" height="520" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" filter="url(#posShadow)"/>
+    
+    <!-- Top POS header -->
+    <rect width="640" height="50" rx="16" fill="#0f172a"/>
+    <text x="24" y="32" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#ffffff">⚡ কাউন্টার পিওএস ও বিলিং (Fast POS Counter)</text>
+    <rect x="520" y="12" width="100" height="26" rx="6" fill="#047857"/>
+    <text x="570" y="29" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#a7f3d0">লাইভ কাউন্টার</text>
+
+    <!-- Search Input -->
+    <g transform="translate(24, 70)">
+      <rect width="592" height="42" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+      <text x="16" y="26" font-family="system-ui, sans-serif" font-size="13" fill="#0f172a">DHK-2026-0001 (তানভীর আহমেদ - 01711223344)</text>
+      <rect x="500" y="5" width="84" height="32" rx="6" fill="#059669"/>
+      <text x="542" y="25" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#ffffff">সার্চ ✓</text>
+    </g>
+
+    <!-- Order Financial Details Card -->
+    <g transform="translate(24, 130)">
+      <rect width="592" height="150" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="20" y="30" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#0f172a">অর্ডার #DHK-2026-0001</text>
+      <rect x="460" y="14" width="112" height="24" rx="12" fill="#fee2e2"/>
+      <text x="516" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#b91c1c">বকেয়া রয়েছে</text>
+
+      <g transform="translate(20, 50)">
+        <rect width="170" height="55" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="12" y="20" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">সর্বমোট বিল</text>
+        <text x="12" y="42" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#0f172a">৳২,২৫০</text>
+
+        <rect x="190" width="170" height="55" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="202" y="20" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">ইতিমধ্যে জমা</text>
+        <text x="202" y="42" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#059669">৳১,৫০০</text>
+
+        <rect x="380" width="172" height="55" rx="8" fill="#ffffff" stroke="#fecaca"/>
+        <text x="392" y="20" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#b91c1c">অবশিষ্ট বকেয়া</text>
+        <text x="392" y="42" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#b91c1c">৳৭৫০</text>
+      </g>
+
+      <text x="20" y="132" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">আইটেম: ১x কাস্টম পাঞ্জাবি (গিজা কটন), ১x পায়জামা | ট্রায়াল সম্পন্ন</text>
+    </g>
+
+    <!-- Payment Modes Row -->
+    <g transform="translate(24, 300)">
+      <text x="4" y="16" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#334155">পেমেন্ট মাধ্যম সিলেক্ট করুন:</text>
+      
+      <g transform="translate(0, 30)">
+        <!-- Cash -->
+        <rect width="110" height="42" rx="8" fill="#059669" stroke="#047857"/>
+        <text x="55" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#ffffff">💵 ক্যাশ (Cash)</text>
+
+        <!-- bKash -->
+        <rect x="120" width="110" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="175" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#e11d48">বিকাশ (bKash)</text>
+
+        <!-- Nagad -->
+        <rect x="240" width="110" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="295" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#ea580c">নগদ (Nagad)</text>
+
+        <!-- Card -->
+        <rect x="360" width="110" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="415" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#2563eb">কার্ড (Card)</text>
+
+        <!-- Due -->
+        <rect x="480" width="112" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="536" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#475569">বকেয়া খাতা</text>
+      </g>
+    </g>
+
+    <!-- Action Collect Button -->
+    <g transform="translate(24, 400)">
+      <rect width="592" height="52" rx="10" fill="#059669"/>
+      <text x="296" y="32" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#ffffff">
+        ৳৭৫০ টাকা গ্রহণ ও ডেলিভারি সম্পন্ন করুন ✓
+      </text>
+    </g>
+  </g>
+
+  <!-- Right: 80mm Unicode Thermal Receipt Tear-Off Paper -->
+  <g transform="translate(720, 20)" filter="url(#posShadow)">
+    <rect width="340" height="540" rx="6" fill="#ffffff" stroke="#e2e8f0"/>
+    
+    <!-- Jagged Paper top edge decoration -->
+    <path d="M0 0 L15 8 L30 0 L45 8 L60 0 L75 8 L90 0 L105 8 L120 0 L135 8 L150 0 L165 8 L180 0 L195 8 L210 0 L225 8 L240 0 L255 8 L270 0 L285 8 L300 0 L315 8 L330 0 L340 5 L340 540 L0 540 Z" fill="#ffffff"/>
+
+    <!-- Receipt Header -->
+    <g transform="translate(0, 30)" text-anchor="middle" font-family="system-ui, 'SolaimanLipi', sans-serif">
+      <text x="170" y="20" font-size="18" font-weight="900" fill="#0f172a">দর্জি প্রো (DarziPro)</text>
+      <text x="170" y="38" font-size="10" fill="#64748b">ঢাকা ধানমন্ডি শাখা • সাত মসজিদ রোড</text>
+      <text x="170" y="52" font-size="10" fill="#64748b">ফোন: ০১৭১১-০০০০০১</text>
+      <line x1="20" y1="65" x2="320" y2="65" stroke="#000000" stroke-dasharray="4 3"/>
+
+      <!-- Order details -->
+      <g text-anchor="start" transform="translate(25, 80)" font-size="11">
+        <text y="0" font-weight="700">অর্ডার নং: DHK-2026-0001</text>
+        <text y="18">ট্র্যাকিং পিন: 8421</text>
+        <text y="36">গ্রাহক: তানভীর আহমেদ (01711223344)</text>
+        <text y="54">তারিখ: ২৩/১০/২০২৬ ০২:৩০ PM</text>
+        <text y="72" font-weight="700" fill="#059669">ডেলিভারি তারিখ: ২৪/১০/২০২৬</text>
+      </g>
+      <line x1="20" y1="175" x2="320" y2="175" stroke="#000000" stroke-dasharray="4 3"/>
+
+      <!-- Item rows -->
+      <g text-anchor="start" transform="translate(25, 195)" font-size="11">
+        <text y="0" font-weight="700">১x সেমি-ফিট পাঞ্জাবি (কাস্টম)</text>
+        <text x="240" y="0" font-weight="700" text-anchor="end">৳২,১২৫</text>
+        <text y="14" font-size="9" fill="#64748b">ফেব্রিক: গিজা কটন (২.৫ গজ) + মজুরি</text>
+
+        <text y="35" font-weight="700">১x সুতি পায়জামা (ক্লাসিক)</text>
+        <text x="240" y="35" font-weight="700" text-anchor="end">৳২২৫</text>
+      </g>
+      <line x1="20" y1="250" x2="320" y2="250" stroke="#000000" stroke-dasharray="4 3"/>
+
+      <!-- Totals -->
+      <g text-anchor="start" transform="translate(25, 270)" font-size="11">
+        <text y="0">সর্বমোট বিল:</text>
+        <text x="240" y="0" text-anchor="end">৳২,৩৫০</text>
+
+        <text y="18">ডিসকাউন্ট:</text>
+        <text x="240" y="18" text-anchor="end">- ৳১০০</text>
+
+        <text y="36" font-weight="700">নীট মূল্য:</text>
+        <text x="240" y="36" font-weight="700" text-anchor="end">৳২,২৫০</text>
+
+        <text y="54">জমা / অগ্রিম:</text>
+        <text x="240" y="54" text-anchor="end">৳১,৫০০</text>
+
+        <text y="76" font-size="13" font-weight="900" fill="#b91c1c">অবশিষ্ট বকেয়া:</text>
+        <text x="240" y="76" font-size="13" font-weight="900" fill="#b91c1c" text-anchor="end">৳৭৫০</text>
+      </g>
+      <line x1="20" y1="365" x2="320" y2="365" stroke="#000000" stroke-dasharray="4 3"/>
+
+      <!-- QR & Footer -->
+      <g transform="translate(125, 385)">
+        <rect width="90" height="90" fill="#f8fafc" stroke="#000000" stroke-width="1.5"/>
+        <text x="45" y="45" text-anchor="middle" font-size="8" fill="#475569">[ QR CODE ]</text>
+        <text x="45" y="58" text-anchor="middle" font-size="7" fill="#64748b">স্ক্যান করে ট্র্যাক করুন</text>
+      </g>
+      <text x="170" y="500" font-size="10" font-weight="600" fill="#475569">ধন্যবাদ! আবার আসবেন।</text>
+    </g>
+  </g>
+</svg>

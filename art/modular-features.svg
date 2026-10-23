@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 480" width="100%" height="100%">
+  <defs>
+    <filter id="modShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="480" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+
+  <!-- Top Title -->
+  <g transform="translate(40, 30)">
+    <rect width="1020" height="50" rx="10" fill="#0f172a"/>
+    <text x="24" y="31" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#ffffff">
+      🎛️ মডিউলার আর্কিটেকচার ও ফিচার-ফ্ল্যাগ ইঞ্জিন (Run or Stop Any Module Based On Your Business)
+    </text>
+  </g>
+
+  <!-- 8 Modular Cards Grid (2 rows of 4) -->
+  <g transform="translate(40, 100)">
+    
+    <!-- Mod 1 -->
+    <g transform="translate(0, 0)" filter="url(#modShadow)">
+      <rect width="240" height="155" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+      <circle cx="30" cy="30" r="16" fill="#ecfdf5"/>
+      <text x="24" y="35" font-size="14">📐</text>
+      <!-- Switch Toggle ON -->
+      <rect x="180" y="20" width="44" height="22" rx="11" fill="#059669"/>
+      <circle cx="212" cy="31" r="8" fill="#ffffff"/>
+
+      <text x="18" y="70" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a">কাস্টম টেইলারিং ও মাপ</text>
+      <text x="18" y="90" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">পাঞ্জাবি, শার্ট, প্যান্টের সুতা ও ইঞ্চি মাপ ভল্ট এবং কাটিং স্লিপ।</text>
+      <text x="18" y="135" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#059669">সক্রিয় (Active) ✓</text>
+    </g>
+
+    <!-- Mod 2 -->
+    <g transform="translate(260, 0)" filter="url(#modShadow)">
+      <rect width="240" height="155" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+      <circle cx="30" cy="30" r="16" fill="#ecfdf5"/>
+      <text x="24" y="35" font-size="14">⚡</text>
+      <!-- Switch Toggle ON -->
+      <rect x="180" y="20" width="44" height="22" rx="11" fill="#059669"/>
+      <circle cx="212" cy="31" r="8" fill="#ffffff"/>
+
+      <text x="18" y="70" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a">কাউন্টার পিওএস (POS)</text>
+      <text x="18" y="90" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">৮৮মিমি থার্মাল বাংলা রিসিট, কিউআর কোড ও দ্রুত বকেয়া আদায়।</text>
+      <text x="18" y="135" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#059669">সক্রিয় (Active) ✓</text>
+    </g>
+
+    <!-- Mod 3 -->
+    <g transform="translate(520, 0)" filter="url(#modShadow)">
+      <rect width="240" height="155" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+      <circle cx="30" cy="30" r="16" fill="#ecfdf5"/>
+      <text x="24" y="35" font-size="14">🧵</text>
+      <!-- Switch Toggle ON -->
+      <rect x="180" y="20" width="44" height="22" rx="11" fill="#059669"/>
+      <circle cx="212" cy="31" r="8" fill="#ffffff"/>
+
+      <text x="18" y="70" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a">কারিগর পিস-রেট মজুরি</text>
+      <text x="18" y="90" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">পিস প্রতি মজুরি হিসাব, কাটিং ও সেলাই বণ্টন এবং পরিশোধ খাতা।</text>
+      <text x="18" y="135" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#059669">সক্রিয় (Active) ✓</text>
+    </g>
+
+    <!-- Mod 4 -->
+    <g transform="translate(780, 0)" filter="url(#modShadow)">
+      <rect width="240" height="155" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+      <circle cx="30" cy="30" r="16" fill="#ecfdf5"/>
+      <text x="24" y="35" font-size="14">⏱️</text>
+      <!-- Switch Toggle ON -->
+      <rect x="180" y="20" width="44" height="22" rx="11" fill="#059669"/>
+      <circle cx="212" cy="31" r="8" fill="#ffffff"/>
+
+      <text x="18" y="70" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a">বায়োমেট্রিক হাজিরা হাব</text>
+      <text x="18" y="90" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">ZKTeco ফিঙ্গারপ্রিন্ট ডিভাইসের সাথে ডিজিটাল সময় লগ ও ওভারটাইম।</text>
+      <text x="18" y="135" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#059669">সক্রিয় (Active) ✓</text>
+    </g>
+
+    <!-- Row 2 -->
+    <!-- Mod 5 -->
+    <g transform="translate(0, 180)" filter="url(#modShadow)">
+      <rect width="240" height="155" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+      <circle cx="30" cy="30" r="16" fill="#ecfdf5"/>
+      <text x="24" y="35" font-size="14">🤖</text>
+      <!-- Switch Toggle ON -->
+      <rect x="180" y="20" width="44" height="22" rx="11" fill="#059669"/>
+      <circle cx="212" cy="31" r="8" fill="#ffffff"/>
+
+      <text x="18" y="70" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a">এআই ফ্যাশন ও গজ ক্যালক</text>
+      <text x="18" y="90" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">উচ্চতা ও চেস্ট অনুযায়ী স্বয়ংক্রিয় গজ হিসাব ও ট্রেন্ডিং স্টাইল।</text>
+      <text x="18" y="135" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#059669">সক্রিয় (Active) ✓</text>
+    </g>
+
+    <!-- Mod 6 -->
+    <g transform="translate(260, 180)" filter="url(#modShadow)">
+      <rect width="240" height="155" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+      <circle cx="30" cy="30" r="16" fill="#ecfdf5"/>
+      <text x="24" y="35" font-size="14">🏢</text>
+      <!-- Switch Toggle ON -->
+      <rect x="180" y="20" width="44" height="22" rx="11" fill="#059669"/>
+      <circle cx="212" cy="31" r="8" fill="#ffffff"/>
+
+      <text x="18" y="70" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a">মাল্টি-শাখা ইআরপি</text>
+      <text x="18" y="90" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">ধানমন্ডি, উত্তরা, চট্টগ্রাম শাখার আলাদা স্টক ও কেন্দ্রীয় হিসাব।</text>
+      <text x="18" y="135" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#059669">সক্রিয় (Active) ✓</text>
+    </g>
+
+    <!-- Mod 7 -->
+    <g transform="translate(520, 180)" filter="url(#modShadow)">
+      <rect width="240" height="155" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+      <circle cx="30" cy="30" r="16" fill="#ecfdf5"/>
+      <text x="24" y="35" font-size="14">🛍️</text>
+      <!-- Switch Toggle ON -->
+      <rect x="180" y="20" width="44" height="22" rx="11" fill="#059669"/>
+      <circle cx="212" cy="31" r="8" fill="#ffffff"/>
+
+      <text x="18" y="70" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a">গজ কাপড় ও অনলাইন স্টোর</text>
+      <text x="18" y="90" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">পাবলিক ক্যাটালগ ও তৈরি পাঞ্জাবি, আতর বিক্রয়।</text>
+      <text x="18" y="135" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#059669">সক্রিয় (Active) ✓</text>
+    </g>
+
+    <!-- Mod 8 -->
+    <g transform="translate(780, 180)" filter="url(#modShadow)">
+      <rect width="240" height="155" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+      <circle cx="30" cy="30" r="16" fill="#ecfdf5"/>
+      <text x="24" y="35" font-size="14">💬</text>
+      <!-- Switch Toggle ON -->
+      <rect x="180" y="20" width="44" height="22" rx="11" fill="#059669"/>
+      <circle cx="212" cy="31" r="8" fill="#ffffff"/>
+
+      <text x="18" y="70" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#0f172a">স্বয়ংক্রিয় বাংলা এসএমএস</text>
+      <text x="18" y="90" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">অর্ডার কনফার্মেশন ও ট্রায়াল রেডি নোটিফিকেশন এসএমএস।</text>
+      <text x="18" y="135" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#059669">সক্রিয় (Active) ✓</text>
+    </g>
+
+  </g>
+</svg>

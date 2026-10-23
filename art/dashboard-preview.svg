@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 650" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sideGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Browser Window Wrapper -->
+  <rect width="1100" height="650" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Browser Header Bar -->
+  <path d="M0 16 C0 7.16 7.16 0 16 0 L1084 0 C1092.84 0 1100 7.16 1100 16 L1100 44 L0 44 Z" fill="#0f172a"/>
+  <circle cx="24" cy="22" r="5" fill="#ef4444"/>
+  <circle cx="40" cy="22" r="5" fill="#f59e0b"/>
+  <circle cx="56" cy="22" r="5" fill="#10b981"/>
+  <rect x="280" y="10" width="540" height="24" rx="6" fill="#1e293b"/>
+  <text x="550" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">https://darzipro.test/admin/dashboard • দর্জি প্রো ইআরপি</text>
+
+  <!-- Sidebar -->
+  <g transform="translate(0, 44)">
+    <rect width="240" height="606" fill="url(#sideGrad)"/>
+    
+    <!-- Brand -->
+    <text x="24" y="42" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#ffffff">✂️ Darzi<tspan fill="#10b981">Pro</tspan></text>
+    <text x="24" y="60" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#6ee7b7">টেইলারিং ইআরপি v2.0</text>
+    <line x1="20" y1="75" x2="220" y2="75" stroke="#1e293b"/>
+
+    <!-- Nav Items -->
+    <g transform="translate(16, 95)" font-family="system-ui, sans-serif" font-size="12">
+      <!-- Active item -->
+      <rect width="208" height="36" rx="8" fill="#064e3b" stroke="#059669"/>
+      <text x="14" y="23" font-weight="700" fill="#a7f3d0">📊 ড্যাশবোর্ড ওভারভিউ</text>
+
+      <text x="14" y="62" font-weight="600" fill="#94a3b8">✂️ টেইলারিং অর্ডার (All Orders)</text>
+      <text x="14" y="98" font-weight="600" fill="#94a3b8">👥 গ্রাহক ও মাপ ভল্ট (Vault)</text>
+      <text x="14" y="134" font-weight="600" fill="#94a3b8">⚡ কাউন্টার পিওএস (POS)</text>
+      <text x="14" y="170" font-weight="600" fill="#94a3b8">🧵 কারিগর কাজ ও মজুরি</text>
+      <text x="14" y="206" font-weight="600" fill="#94a3b8">📦 গজ কাপড় ও পণ্য স্টক</text>
+      <text x="14" y="242" font-weight="600" fill="#94a3b8">⏱️ বায়োমেট্রিক হাজিরা (ZKTeco)</text>
+      <text x="14" y="278" font-weight="600" fill="#94a3b8">💰 দোকান ব্যয় ও আয়-ব্যয়</text>
+      <text x="14" y="314" font-weight="600" fill="#94a3b8">🎛️ মডিউল অন/অফ কন্ট্রোল</text>
+      <text x="14" y="350" font-weight="600" fill="#94a3b8">🏢 শাখা সেটিংস (Branches)</text>
+    </g>
+
+    <!-- Branch selector badge in sidebar -->
+    <g transform="translate(16, 540)">
+      <rect width="208" height="50" rx="8" fill="#1e293b"/>
+      <text x="12" y="20" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">সক্রিয় শাখা:</text>
+      <text x="12" y="37" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#38bdf8">ঢাকা ধানমন্ডি শাখা (DHK)</text>
+    </g>
+  </g>
+
+  <!-- Main Content Area -->
+  <g transform="translate(240, 44)">
+    
+    <!-- Topbar -->
+    <rect width="860" height="56" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="30" y="34" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#0f172a">মাস্টার ড্যাশবোর্ড</text>
+    <text x="730" y="34" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#64748b">👤 সুপার এডমিন</text>
+
+    <!-- Stats Widgets Row -->
+    <g transform="translate(30, 80)">
+      <!-- Stat 1 -->
+      <rect width="185" height="96" rx="12" fill="#ffffff" stroke="#e2e8f0" filter="url(#cardShadow)"/>
+      <text x="16" y="28" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#64748b">আজকের নতুন অর্ডার</text>
+      <text x="16" y="60" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="#0f172a">২৪ টি</text>
+      <text x="16" y="80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#10b981">↑ ১২% গতকালের চেয়ে বেশি</text>
+
+      <!-- Stat 2 -->
+      <rect x="200" width="195" height="96" rx="12" fill="#ffffff" stroke="#e2e8f0" filter="url(#cardShadow)"/>
+      <text x="216" y="28" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#64748b">আজকের মোট কালেকশন</text>
+      <text x="216" y="60" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="#059669">৳৪৭,৫০০</text>
+      <text x="216" y="80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#64748b">নগদ: ৩৩,০০০ | বিকাশ: ১৪,৫০০</text>
+
+      <!-- Stat 3 -->
+      <rect x="410" width="195" height="96" rx="12" fill="#ffffff" stroke="#e2e8f0" filter="url(#cardShadow)"/>
+      <text x="426" y="28" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#64748b">ডেলিভারি প্রস্তুত</text>
+      <text x="426" y="60" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="#0284c7">১৮ টি</text>
+      <text x="426" y="80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#0284c7">গ্রাহককে এসএমএস পাঠানো হয়েছে</text>
+
+      <!-- Stat 4 -->
+      <rect x="620" width="180" height="96" rx="12" fill="#ffffff" stroke="#e2e8f0" filter="url(#cardShadow)"/>
+      <text x="636" y="28" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#64748b">কারিগর বকেয়া মজুরি</text>
+      <text x="636" y="60" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="#d97706">৳১১,৪২০</text>
+      <text x="636" y="80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#d97706">৬ জন কারিগরের পাওনা</text>
+    </g>
+
+    <!-- Orders Table Preview -->
+    <g transform="translate(30, 200)">
+      <rect width="800" height="375" rx="14" fill="#ffffff" stroke="#e2e8f0" filter="url(#cardShadow)"/>
+      
+      <!-- Table Header -->
+      <text x="20" y="36" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#0f172a">সাম্প্রতিক টেইলারিং অর্ডারসমূহ</text>
+      <rect x="660" y="16" width="120" height="30" rx="6" fill="#059669"/>
+      <text x="720" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#ffffff">+ নতুন অর্ডার গ্রহণ</text>
+
+      <!-- Table Head Columns -->
+      <rect x="15" y="60" width="770" height="32" fill="#f1f5f9" rx="6"/>
+      <text x="30" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569">অর্ডার নং</text>
+      <text x="160" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569">গ্রাহকের নাম ও ফোন</text>
+      <text x="350" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569">পোশাক আইটেম</text>
+      <text x="470" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569">সর্বমোট / জমা</text>
+      <text x="590" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569">অবস্থা (Status)</text>
+      <text x="710" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569">অ্যাকশন</text>
+
+      <!-- Row 1 -->
+      <g transform="translate(0, 105)">
+        <text x="30" y="20" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#0f172a">DHK-2026-0001</text>
+        <text x="160" y="15" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1e293b">তানভীর আহমেদ</text>
+        <text x="160" y="30" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">01711223344</text>
+        <text x="350" y="20" font-family="system-ui, sans-serif" font-size="11" fill="#334155">পাঞ্জাবি, পায়জামা (২টি)</text>
+        <text x="470" y="15" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">৳২,২৫০</text>
+        <text x="470" y="30" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#ef4444">বকেয়া: ৳৭৫০</text>
+        <rect x="585" y="6" width="105" height="22" rx="11" fill="#dcfce7"/>
+        <text x="637" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#15803d">ডেলিভারি প্রস্তুত</text>
+        <rect x="705" y="6" width="65" height="22" rx="6" fill="#0f172a"/>
+        <text x="737" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#ffffff">রিসিট 🖨️</text>
+      </g>
+      <line x1="20" y1="145" x2="780" y2="145" stroke="#f1f5f9"/>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 155)">
+        <text x="30" y="20" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#0f172a">UTR-2026-0001</text>
+        <text x="160" y="15" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1e293b">নাফিসা কামাল</text>
+        <text x="160" y="30" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">01819556677</text>
+        <text x="350" y="20" font-family="system-ui, sans-serif" font-size="11" fill="#334155">ডিজাইনার কামিজ (১টি)</text>
+        <text x="470" y="15" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">৳১,৪৫০</text>
+        <text x="470" y="30" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#ef4444">বকেয়া: ৳৪৫০</text>
+        <rect x="585" y="6" width="105" height="22" rx="11" fill="#fef9c3"/>
+        <text x="637" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#a16207">সেলাই চলছে</text>
+        <rect x="705" y="6" width="65" height="22" rx="6" fill="#0f172a"/>
+        <text x="737" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#ffffff">রিসিট 🖨️</text>
+      </g>
+      <line x1="20" y1="195" x2="780" y2="195" stroke="#f1f5f9"/>
+
+      <!-- Row 3 -->
+      <g transform="translate(0, 205)">
+        <text x="30" y="20" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#0f172a">CTG-2026-0001</text>
+        <text x="160" y="15" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1e293b">রফিকুল ইসলাম</text>
+        <text x="160" y="30" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">01911889900</text>
+        <text x="350" y="20" font-family="system-ui, sans-serif" font-size="11" fill="#334155">ফরমাল প্যান্ট ও শার্ট</text>
+        <text x="470" y="15" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">৳১,৮০০</text>
+        <text x="470" y="30" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#15803d">পরিশোধিত ✓</text>
+        <rect x="585" y="6" width="105" height="22" rx="11" fill="#e0e7ff"/>
+        <text x="637" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#4338ca">ডেলিভার্ড ✓</text>
+        <rect x="705" y="6" width="65" height="22" rx="6" fill="#0f172a"/>
+        <text x="737" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#ffffff">রিসিট 🖨️</text>
+      </g>
+    </g>
+
+  </g>
+</svg>
